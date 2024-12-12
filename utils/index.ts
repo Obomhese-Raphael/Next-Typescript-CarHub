@@ -43,7 +43,7 @@ export const deleteSearchParams = (type: string) => {
 
 export async function fetchCars(filters: FilterProps) {
   const { manufacturer, year, model, limit, fuel } = filters;
-  const apiKey = process.env.NEXT_PUBLIC_RAPID_API_KEY
+  const apiKey = "ae8d21032fmshc8099f1f00fbd2ep1cce1ejsn52971e197118"
 
   // Set the required headers for the API request
   const headers: HeadersInit = {
